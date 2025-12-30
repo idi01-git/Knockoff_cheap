@@ -52,6 +52,44 @@ nav a{
     text-decoration: none;
 }
 
+.home-content h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+
+.home-content h1 span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 6rem;
+}
+
+.home-content p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 2rem;
+}
+
+.home-img{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.home-img img{
+    position: absolute;
+    bottom:150px;
+    left: 20px;
+
+}
+
 nav a:hover,
 nav a.active{
     color: #b74b4b;
